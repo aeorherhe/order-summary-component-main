@@ -1,0 +1,128 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  align-items: center;
+  background-color: hsl(225, 100%, 94%);
+  display: grid;
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  place-items: center;
+}
+
+p {
+  color: rgb(133, 133, 156);
+}
+
+h2 {
+  margin: 40px 0 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  width: 375px;
+}
+
+.pricing h3,
+.pricing p {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.change {
+  color: blue;
+  text-decoration: underline;
+}
+
+.change:hover {
+  color: hsl(243, 90%, 66%);
+  text-decoration: none;
+}
+
+.top img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+.bottom {
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  margin-top: -10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.quote {
+  line-height: 1.5;
+  padding: 0 30px;
+}
+
+.pricing {
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.price {
+  margin: 10px 0;
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 15px;
+  border: 0;
+  box-shadow: 0 12px 30px 1px hsl(245, 63%, 77%);
+  color: white;
+  font-size: larger;
+  margin-top: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+
+button,
+.change,
+.order {
+  cursor: pointer;
+}
+
+button:hover {
+  background: hsl(243, 90%, 66%);
+}
+
+.order {
+  color: hsl(224, 23%, 55%);
+  font-size: larger;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.attribution {
+  background-color: hsl(228, 63%, 39%);
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(51, 79%, 45%);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 415px;
+  }
+}
